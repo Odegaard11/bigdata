@@ -49,15 +49,54 @@ cd : 다른 디렉토리로 이동합니다
 * ls로 폴더가 안보일때(숨긴폴더 or 숨긴파일 보기)
 ls -al
 
+
 4. 버전 관리 파일 선택하기
 git add README.md
 
 5. 버전 관리 파일 커밋하기
-git commit -m
+git commit -m "README.md 파일을 버전을 만들어요"
+
+최초에 실행하면 에러뜨는데
+
+아래와 같이 설정한다.
+git config --global user.email "ultari10@naver.com"
+git config --global user.name "SmithRowe"
+
+git commit -m "README.md 파일 버전을 만들어요" 재실행
+
+*git config 삭제하기
+git config --unset user.name
+git config --unset user.email
+
+*git config 확인하기
+git config --list
+
+로그 확인하기
+git log
+
+여러 파일을 선택하기
+git add .
+
+여러 파일 커밋하기
+git commit -m "index.html, style.css 파일 추가"
+
+로컬 저장소에 github 저장소의 주소를 알려주기
+git remote add origin https://github.com/Odegaard11/bigdata.git
+
+만든 커밋 github에 푸시하기
+git push -u origin master
 
 
+원격 저장소(github)의 내 컴퓨터에 받아오기
+git clone https://github.com/Odegaard11/bigdata.git
+* bigdata 폴더를 생성하여 파일을 저장
+
+폴더 및 파일 삭제
+rm -rf bigdata
+
+위에처럼 폴더를 생성하지 않고 파일만 clone하는 방법
+git clone https://github.com/Odegaard11/bigdata.git .
 
 
-
-
-
+실습
+README.md, index.html 파일을 수정하고 github에 추가 푸시하기
