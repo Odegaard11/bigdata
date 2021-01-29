@@ -100,3 +100,5 @@ git clone https://github.com/Odegaard11/bigdata.git .
 
 실습
 README.md, index.html 파일을 수정하고 github에 추가 푸시하기
+
+개같은 컴퓨터
