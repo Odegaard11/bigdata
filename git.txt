@@ -100,3 +100,22 @@ git clone https://github.com/Odegaard11/bigdata.git .
 
 실습
 README.md, index.html 파일을 수정하고 github에 추가 푸시하기
+
+
+
+repository 삭제하기
+repository 선택
+-> setting 누르고 맨 아래로 ㄱㄱ
+-> Danger Zone에서 Delete this repository 클릭
+-> Please type ~~ to confirm. 에서 ~~를 밑에 있는 빈칸에 넣고 삭제 ㄱㄱ 
+
+
+github 다른 사람과의 협업하기
+repository 선택
+-> setting 누르고
+-> manage access ㄱㄱ(비번눌러야한다)
+-> invite a collaborator 하고 초대할사람 입력
+
+
+소스트리 다운로드
+https://www.sourcetreeapp.com/
